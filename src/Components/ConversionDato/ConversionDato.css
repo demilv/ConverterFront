@@ -1,0 +1,26 @@
+.appResult{
+    text-align: right;
+    width:147px;
+    border: none;   
+    background-color: transparent;
+    color:aliceblue;
+    font-size: 20px;
+}
+
+.tipoConversion{
+    margin-left: 16px;
+    color:aliceblue;  
+}
+
+.displayConversion{
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (min-width:1920) {
+    .appResult{
+        padding-left: 400px;
+    }
+}

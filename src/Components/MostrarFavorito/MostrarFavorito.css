@@ -1,0 +1,36 @@
+.favoritosLinea{
+    height:25px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color: rgb(200, 199, 199);
+}
+
+.favoritosData{
+    padding-left: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 12px;
+}
+
+
+.favoritosX{
+ margin-right: 20px;
+ width:1px  ;
+ padding-bottom: 3px;
+}
+
+@media (min-width:1920px) {
+    .favoritosDivisor{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; 
+    }
+
+    .favoritosLinea{
+        width: 49%
+    }
+
+
+}

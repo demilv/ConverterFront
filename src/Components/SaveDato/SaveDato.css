@@ -1,0 +1,19 @@
+.heartButton {
+    border: none;
+    background: none;
+    padding:0;
+    margin-left: 5px;  
+    margin-right: 10px;
+}
+
+.heartButton span{
+    color:rgb(255, 255, 255);
+}
+
+@media (min-width:1920px) {
+    .heartButton{
+        margin-right: 363px;
+    }
+}
+
+

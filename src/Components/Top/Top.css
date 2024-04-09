@@ -1,0 +1,27 @@
+.TopDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 25px;
+    border-bottom: solid 2px;
+    border-bottom-style: ridge;
+    width: 320px;
+}
+
+.TopArrow, .TopTitle{
+    font-size: 20px;
+}
+
+.TopTitle{
+   margin-left: 12px;
+}
+
+@media (min-width: 1920px) {
+    .TopDiv{
+        width:1920px
+    }
+
+    .TopArrow{
+        margin-left: 650px;
+    }
+}

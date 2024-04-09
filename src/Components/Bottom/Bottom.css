@@ -1,0 +1,31 @@
+.BottomDiv{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-height: 25px;
+    background-color: rgba(46,0,57,255);
+    position: fixed;
+    bottom:0px;
+    width:320px
+}
+
+.BottomH1, .BottomH2 {
+    display: inline;
+    margin:0px;
+    padding:0px;
+    color:aliceblue;
+    font-weight: 100;
+}
+
+@media (min-width: 1920px) {
+    .BottomDiv{
+        width:1920px;
+        align-items: center;
+        justify-content: center;
+        min-height: 30px;        
+    }
+
+    .BottomH2{
+        margin-left: 80px;
+    }
+}

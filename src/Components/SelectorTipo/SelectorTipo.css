@@ -1,0 +1,21 @@
+.Selector {
+    width: 173px;
+    border: none;
+    border-bottom: solid 1px;
+    background-color: transparent;
+    color:aliceblue;
+    margin-right: 15px;
+}
+
+.Selector option {
+    background-color: chocolate;
+}
+
+@media (min-width: 1920px) {
+    .divSelector{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-right: 150px;
+    }
+}

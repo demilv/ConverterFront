@@ -1,0 +1,19 @@
+.inputDato{
+    text-align: right;
+    border: none;
+    border-bottom: solid 1px;
+    background-color: transparent;
+    color:aliceblue
+}
+
+.tipoDato{
+    margin-left: 16px;
+    color:aliceblue;  
+}
+
+.displayDato{
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
